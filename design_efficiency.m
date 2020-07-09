@@ -21,7 +21,7 @@ function [E,params]=design_efficiency(varargin)
 %   'modelFIRmaxT'  : FIR window size (in seconds). It defaults to 12s
 %
 % Example:
-% E=design_efficiency('conditions',repmat([1,2],[1,10]),'blocklengths',[16,16],'contrast',[1,-1]);
+%   E=design_efficiency('conditions',repmat([1,2],[1,10]),'blocklengths',[16,16],'contrast',[1,-1]);
 %
 
 % alfnie@gmail.com
